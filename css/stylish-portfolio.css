@@ -69,6 +69,48 @@ hr.small {
 }
 
 
+/* Custom Image Effects - Fade, courtesy of Praveen Kumar (Stack Overflow). Compatible versions unknown as of now. */
+
+.fadeImage {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera */
+       -moz-animation: fadein 3s; /* Firefox */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera */
+            animation: fadein 3s;
+    display: block;
+    margin: 25px auto;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -221,6 +263,10 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: .8;
+}
+
+.img-portfolio_m {
+    margin: 0 auto;
 }
 
 
