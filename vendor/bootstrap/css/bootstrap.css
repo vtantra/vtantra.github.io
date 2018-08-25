@@ -646,6 +646,15 @@ pre code {
   margin-left: -15px;
 }
 
+.row-contact {
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  -ms-flex-align: center;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
