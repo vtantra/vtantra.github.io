@@ -92,8 +92,8 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #e2e2e2;
+  background-color: #303030;
 }
 
 [tabindex="-1"]:focus {
@@ -188,14 +188,14 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #e2e2e2;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #b1b1b1;
   text-decoration: underline;
 }
 
@@ -564,8 +564,8 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 90%;
-  color: #fff;
-  background-color: #212529;
+  color: #212529;
+  background-color: #e2e2e2;
   border-radius: 0.2rem;
 }
 
@@ -5240,7 +5240,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #303030 !important;
+  background-color: #e2e2e2 !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
@@ -8105,11 +8105,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #f2f2f2 !important;
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #303030 !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
