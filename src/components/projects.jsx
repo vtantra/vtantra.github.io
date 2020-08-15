@@ -12,10 +12,8 @@ export default class Projects extends Component {
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span className="heading-meta">My Work</span>
-                <h2 className="colorlib-heading animate-box">
-                  Recent Projects
-                </h2>
+                <span className="heading-meta">Projects</span>
+                <h2 className="colorlib-heading animate-box">My Recent Work</h2>
               </div>
             </div>
             {/* <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
@@ -43,7 +41,7 @@ export default class Projects extends Component {
               <Project
                 background="seamcarving.png"
                 link="https://vtantra.github.io/SeamCarving/"
-                title="Post-Shot Aperture and Focus Manipulation with Lightfields"
+                title="Seam Carving for Context-Aware Cropping"
                 body="1 of 2 final projects for my computer vision course. Using research by Shai Avidan and Ariel Shamir presented at SIGGRAPH 2007, I implemented a seam carving algorithm in Python. It allows you to crop images in a context-aware manner, reducing size while mainly cropping unnecessary visual information. I also added seam stretching, which allows stretching of images by inserting sections of filler pixels."
               />
               <Project

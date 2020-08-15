@@ -27,9 +27,10 @@ export default class About extends Component {
                       </p>
                       <p>
                         In my free time I train as a hip-hop/street-inspired
-                        choreographer and dancer, play a lot of games and burn
-                        things in the kitchen. I love creating, competing with
-                        others, and the process of growth. Nice to meet you!
+                        choreographer and dancer, play a lot of video games and
+                        burn things in the kitchen. I love creating, competing
+                        with others, and the process of growth. Nice to meet
+                        you!
                       </p>
                     </div>
                   </div>

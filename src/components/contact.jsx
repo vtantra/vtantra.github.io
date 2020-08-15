@@ -11,8 +11,8 @@ export default class Contact extends Component {
                 class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                 data-animate-effect="fadeInLeft"
               >
-                <span class="heading-meta">Get in Touch</span>
-                <h2 class="colorlib-heading">Contact</h2>
+                <span class="heading-meta">Contact</span>
+                <h2 class="colorlib-heading">Get In Touch</h2>
               </div>
             </div>
             <div class="row">
@@ -22,7 +22,7 @@ export default class Contact extends Component {
                   data-animate-effect="fadeInLeft"
                 >
                   <div class="colorlib-icon">
-                    <i class="icon-globe-outline"></i>
+                    <i class="icon-mail"></i>
                   </div>
                   <div class="colorlib-text">
                     <p>

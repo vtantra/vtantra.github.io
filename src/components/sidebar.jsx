@@ -28,6 +28,7 @@ export default class Sidebar extends Component {
               <h1 id="colorlib-logo">
                 <a href="index.html">Vincent Tantra</a>
               </h1>
+              <span class="position">Berkeley, CA</span>
               {/* <span className="email">
                 <i className="icon-mail"></i> vincentxtantra@gmail.com
               </span> */}
@@ -96,8 +97,7 @@ export default class Sidebar extends Component {
                   >
                     <i className="icon-instagram" style={{ fontSize: 20 }} />
                   </a>
-                </li>
-                <li>
+                  {"  "}
                   <a
                     href="http://linkedin.com/in/vincenttantra"
                     target="_blank"
@@ -119,10 +119,8 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p>
                 <small>
-                  {/* Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-                  <i className="icon-beer" aria-hidden="true"></i> */}
                   <br></br>
-                  Template inspired by{" "}
+                  Designed by{" "}
                   <a
                     href="https://colorlib.com"
                     target="_blank"
@@ -130,10 +128,8 @@ export default class Sidebar extends Component {
                   >
                     Colorlib
                   </a>
-                  .
+                  , built with React.
                 </small>
-                <br />
-                <small>This website is built with React.</small>
                 <br />
                 <small>Copyright © Vincent Tantra 2020</small>
               </p>

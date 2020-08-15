@@ -26,22 +26,22 @@ export default class Project extends Component {
                 </h3>
                 <span>{this.props.body}</span>
                 {/* <p className="icon">
-                        <span>
-                          <a href="#">
-                            <i className="icon-share3" />
-                          </a>
-                        </span>
-                        <span>
-                          <a href="#">
-                            <i className="icon-eye" /> 100
-                          </a>
-                        </span>
-                        <span>
-                          <a href="#">
-                            <i className="icon-heart" /> 49
-                          </a>
-                        </span>
-                      </p> */}
+                  <span>
+                    <a href="#">
+                      <i className="icon-share3" />
+                    </a>
+                  </span>
+                  <span>
+                    <a href="#">
+                      <i className="icon-eye" /> 100
+                    </a>
+                  </span>
+                  <span>
+                    <a href="#">
+                      <i className="icon-heart" /> 49
+                    </a>
+                  </span>
+                </p> */}
               </div>
             </div>
           </div>
