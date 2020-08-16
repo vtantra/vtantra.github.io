@@ -19,7 +19,7 @@ export default class Skills extends Component {
             <div className="row row-pt-md">
               <Skill
                 header="Languages"
-                body="Python, Lua, Java, JavaScript, SQL, HTML/CSS, and more. VCS experience with git."
+                body="Python, Lua, Java, JavaScript, SQL, HTML/CSS, and more. I also have VCS experience with git."
                 color="color-1"
                 icon="icon-code"
               />
